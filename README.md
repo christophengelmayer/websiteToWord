@@ -62,8 +62,7 @@ Ensure your sitemap or list of URLs is correctly configured in the script.
 
 3. **Convert Markdown to Word with Pandoc**
  
-```
-bash
+```bash
 pandoc output/out.md -o output/out.docx --embed-resources
 ```
 
