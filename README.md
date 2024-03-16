@@ -21,16 +21,14 @@ This is a set of tools and scripts designed to simplify the process of convertin
 
 1. **Clone the repository**
 
-```
-bash
+```bash
 git clone https://github.com/yourgithubusername/convert-website-to-word.git
 cd convert-website-to-word
 ```
 
 2. **Set up a Python virtual environment**
 
-```
-bash
+```bash
 python3 -m venv ./venv
 source venv/bin/activate
 pip install -r requirements.txt
@@ -40,9 +38,8 @@ pip install -r requirements.txt
 
 Edit the following command with your target website instead of `https://example.com`.
 
-```
-   bash
-   npx sitemap-generator-cli -v -r -q https://example.com
+```bash
+npx sitemap-generator-cli -v -r -q https://example.com
 ```
 
 Modify the generated sitemap so that each line contains only one URL. You may need to sort or filter the URLs as necessary.
@@ -51,15 +48,13 @@ Modify the generated sitemap so that each line contains only one URL. You may ne
 
 1. **Activate the Python virtual environment**
 
-``` 
-bash
+```bash
 source venv/bin/activate
 ``` 
 
 2. **Run the script to convert URLs to Markdown**
  
-```
-bash
+```bash
 python main.py
 ```
 
