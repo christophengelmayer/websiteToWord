@@ -22,7 +22,7 @@ This is a set of tools and scripts designed to simplify the process of convertin
 1. **Clone the repository**
 
 ```bash
-git clone https://github.com/yourgithubusername/convert-website-to-word.git
+git clone https://github.com/christophengelmayer/convert-website-to-word.git
 cd convert-website-to-word
 ```
 
